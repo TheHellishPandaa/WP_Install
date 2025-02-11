@@ -62,5 +62,6 @@ sudo a2ensite wordpress
 sudo a2enmod rewrite
 sudo systemctl restart apache2
 
+
 # Configuración final
 echo "✅ Instalación completa. Accede a http://tu-servidor para finalizar la instalación de WordPress."
