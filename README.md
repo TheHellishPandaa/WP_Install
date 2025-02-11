@@ -16,18 +16,18 @@ Este script automatiza la instalación de WordPress en un servidor Ubuntu con Ap
 ## 📥 Instalación
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/wordpress-installer.git
-cd wordpress-installer
+git clone https://github.com/TheHellishPandaa/WP-Install.git
+cd wp-install
 ```
 
 ### 2️⃣ Dar permisos de ejecución al script
 ```bash
-chmod +x install_wordpress.sh
+chmod +x wp-install.sh
 ```
 
 ### 3️⃣ Ejecutar el script
 ```bash
-sudo ./install_wordpress.sh
+sudo ./wp-install.sh
 ```
 
 ## ⚙ Configuración
@@ -41,7 +41,7 @@ sudo ./install_wordpress.sh
 ## 🌍 Acceso a WordPress
 Después de la instalación, abre tu navegador y accede a:
 ```plaintext
-http://tu-servidor
+http://tu-servidor/wordpress
 ```
 Sigue el asistente de instalación de WordPress para completar la configuración.
 
