@@ -73,9 +73,14 @@ sudo sed -i "s/database_name_here/$DB_NAME/" $WP_DIR/wp-config.php
 sudo sed -i "s/username_here/$DB_USER/" $WP_DIR/wp-config.php
 sudo sed -i "s/password_here/$DB_PASS/" $WP_DIR/wp-config.php
 
-echo "   💾 Database name: $DB_NAME"
-echo "   👤 Database user: $DB_USER"
+echo "------------------------------------------------------------"
+echo "-----------------------------------------"
 echo ""
+echo "   💾 database name: $DB_NAME"
+echo "   👤 database user: $DB_USER"
+echo ""
+echo "-----------------------------------------"
+echo "------------------------------------------------------------"
 
 # Cleanup
 echo "🧹 Removing installation archive..."
