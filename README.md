@@ -51,7 +51,6 @@ Sigue el asistente de instalación de WordPress para completar la configuración
 ```bash
 sudo ufw allow 80/tcp
 ```
-✔ Para usar un dominio en lugar de una IP, edita `/etc/apache2/sites-available/wordpress.conf` y cambia `ServerAdmin webmaster@localhost`.
 
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras un error o quieres mejorar el script, abre un **issue** o envía un **pull request**.
