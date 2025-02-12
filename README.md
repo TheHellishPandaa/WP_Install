@@ -30,13 +30,6 @@ chmod +x wp-install.sh
 sudo ./wp-install.sh
 ```
 
-## ⚙ Configuración
-- **Base de datos:** Se crea automáticamente con el siguiente acceso:
-  - Nombre: `wordpress`
-  - Usuario: `wp_user`
-  - Contraseña: `StrongPassword123!` (puedes cambiarla en el script)
-
-- **Apache:** Se configura un virtual host para servir WordPress desde `/var/www/html/wordpress`.
 
 ## 🌍 Acceso a WordPress
 Después de la instalación, abre tu navegador y accede a:
